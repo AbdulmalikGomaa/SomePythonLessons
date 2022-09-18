@@ -1,0 +1,10 @@
+thistuple = (69, 47, "I Have No Idea what am I doing")
+print(thistuple)
+thattuple = ("Same", "As", "The", "First", "One")
+print(thattuple)
+print(thistuple+thattuple)
+print(thistuple*21)
+dis, iz, _, variable, _ = thattuple
+print(dis)
+print(iz)
+print(variable)

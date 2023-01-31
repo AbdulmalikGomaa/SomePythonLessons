@@ -25,5 +25,5 @@
 -Only support immutable data types.
 (Definitely didn't copy)
 (Definitely didn't copy)
--Are mutable.
+-Are immutable.
 """

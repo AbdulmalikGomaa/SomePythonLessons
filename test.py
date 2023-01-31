@@ -1,8 +1,7 @@
 from time import sleep
 what = 0
 theitem = "0"
-while what != float('inf'):
+while what != 1:
     theitem = theitem + "0"
     print(theitem)
-    what = what + 1
-    sleep(0.01)
+    sleep(1/1000)

@@ -9,3 +9,4 @@ while UserInput != Password:
     UserInput = str(input("Password: "))
 else:
     print(" يا فرحة" * 50)
+    # the teacher told us to make a login thing one day. that's all about it.

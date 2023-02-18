@@ -22,3 +22,4 @@ def progressbar(iterationCounter):
     progressbar(iterationCounter)
 
 progressbar(0)
+#it was meant to be a progressbar but it failed.

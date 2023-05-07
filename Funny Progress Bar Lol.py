@@ -1,9 +1,9 @@
 from time import sleep
 
-segment1 = "|"
-segment2 = "/"
-segment3 = "—"
-segment4 = "\\"
+segment1 = "\\"
+segment2 = "|"
+segment3 = "/"
+segment4 = "-"
 
 
 def progressbar():

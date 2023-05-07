@@ -72,20 +72,36 @@ operation = 0
 print("Enter /exit to exit and /reset to reset calculation.")
 
 def addition():
-    result = float(var1)+float(var2)
-    print(result) if float(result) != int(result) else print(int(result))
+    try:
+        result = float(var1)+float(var2)
+    except ValueError:
+        print("One or both of the values you entered could not be converted to a float.")
+    else:
+        print(result) if float(result) != int(result) else print(int(result))
 
 def subtraction():
-    result = float(var1)-float(var2)
-    print(result) if float(result) != int(result) else print(int(result))
+    try:
+        result = float(var1)-float(var2)
+    except ValueError:
+        print("One of the values you entered could not be converted to a float.")
+    else:
+        print(result) if float(result) != int(result) else print(int(result))
 
 def multiplication():
-    result = float(var1)*float(var2)
-    print(result) if float(result) != int(result) else print(int(result))
+    try:
+        result = float(var1)*float(var2)
+    except ValueError:
+        print("One of the values you entered could not be converted to a float.")
+    else:
+        print(result) if float(result) != int(result) else print(int(result))
 
 def division():
-    result = float(var1)/float(var2)
-    print(result) if float(result) != int(result) else print(int(result))
+    try:
+        result = float(var1)/float(var2)
+    except ValueError:
+        print("One of the values you entered could not be converted to a float.")
+    else:
+        print(result) if float(result) != int(result) else print(int(result))
 
 def calculation():
 
